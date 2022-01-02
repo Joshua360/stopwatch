@@ -1,0 +1,46 @@
+*{
+    margin: 0 auto;
+}
+
+.container{
+   margin: 0 auto;
+   width: 30%;
+}
+
+.buttons{
+    
+    display: flex;
+    justify-content: space-around;
+
+  
+}
+
+
+#startstop{
+    padding:10px 15px;
+    background: #90e703;
+}
+#reset{
+    background:#e3e703;
+}
+
+button{
+    margin:3px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    flex-grow: 1;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+#display{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
