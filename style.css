@@ -21,7 +21,9 @@
     background: #90e703;
 }
 #reset{
-    background:#e3e703;
+    background:#eb1313;
+    padding:10px 15px;
+
 }
 
 button{
@@ -40,7 +42,29 @@ button:hover{
 
 
 #display{
+    margin-top: 50px;
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: bold;
+}
+
+
+/* on small screens */
+
+@media screen and (max-width: 600px){
+    .container{
+        width: 100%;
+    }
+
+    .buttons{
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 40px;
+        margin-right: 40px;
+    
+      
+    }
+
+
+   
 }
